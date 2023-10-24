@@ -32,6 +32,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bookinghero from "./bookinghero.png";
 import docthus from "./docthus.png";
+import slack from "./slack.png";
+import gmail from "./gmail.png";
+import linkedin from "./linkedin.png";
+import assafwa from "./assafwa.png";
 
 export {
   logo,
@@ -65,4 +69,8 @@ export {
   tripguide,
   bookinghero,
   docthus,
+  gmail,
+  linkedin,
+  slack,
+  assafwa,
 };

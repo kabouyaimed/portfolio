@@ -26,6 +26,10 @@ import {
   threejs,
   docthus,
   bookinghero,
+  slack,
+  gmail,
+  linkedin,
+  assafwa,
 } from "../assets";
 
 export const navLinks = [
@@ -216,6 +220,7 @@ const projects = [
     ],
     image: docthus,
     source_code_link: "https://github.com/kabouyaimed",
+    link: "https://meta-docthus-private.vercel.app/",
   },
   {
     name: "Bookinghero",
@@ -237,6 +242,92 @@ const projects = [
     ],
     image: bookinghero,
     source_code_link: "https://github.com/kabouyaimed",
+    link: "https://bookinghero.io/",
+  },
+  {
+    name: "Assafwa School Management",
+    description:
+      "Web application that helps private and public schools manage their shcedules, students and everything related to their stablishment.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: assafwa,
+    source_code_link: "https://github.com/kabouyaimed",
+    link: "https://app.assafwaschool.com/login",
+  },
+  {
+    name: "Gmail Clone",
+    description: "A Front-End clone of the famous web platfrom Gmail.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/kabouyaimed",
+    link: "https://clone-pr-bd2af.web.app/",
+  },
+  {
+    name: "Linkedin Clone",
+    description: "A Front-End clone of the famous web platfrom Linkedin.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: linkedin,
+    source_code_link: "https://github.com/kabouyaimed",
+    link: "https://linkdin-clone-pr.web.app/",
+  },
+  {
+    name: "Slack Clone",
+    description: "A Front-End clone of the famous web platfrom Slack.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: slack,
+    source_code_link: "https://github.com/kabouyaimed",
+    link: "https://slack-clone-pr-e298e.web.app/",
   },
 ];
 
