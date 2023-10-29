@@ -30,6 +30,7 @@ import {
   gmail,
   linkedin,
   assafwa,
+  camper,
 } from "../assets";
 
 export const navLinks = [
@@ -245,20 +246,42 @@ const projects = [
     link: "https://bookinghero.io/",
   },
   {
-    name: "Assafwa School Management",
+    name: "Campers Guide",
     description:
-      "Web application that helps private and public schools manage their shcedules, students and everything related to their stablishment.",
+      "A SEO friendly responsive landing page with a performance score of 99% on all screen sizes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "next",
         color: "green-text-gradient",
       },
       {
-        name: "Nodejs",
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: camper,
+    source_code_link: "https://github.com/kabouyaimed",
+    link: "https://hilink-campers-guide.vercel.app/",
+  },
+  {
+    name: "Assafwa School Management",
+    description:
+      "Web application that helps private and public schools manage their shcedules, students and everything related to their stablishment.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Laravel",
         color: "pink-text-gradient",
       },
     ],

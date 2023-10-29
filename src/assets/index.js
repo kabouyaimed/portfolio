@@ -36,6 +36,7 @@ import slack from "./slack.png";
 import gmail from "./gmail.png";
 import linkedin from "./linkedin.png";
 import assafwa from "./assafwa.png";
+import camper from "./camper.png";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   linkedin,
   slack,
   assafwa,
+  camper,
 };
