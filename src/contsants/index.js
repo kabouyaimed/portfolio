@@ -50,15 +50,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Development",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Back-End Development",
     icon: backend,
   },
   {
-    title: "Website Security",
+    title: "Web Security",
     icon: mobile,
   },
   {
@@ -120,16 +120,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Network Engineer and Developer",
+    title: "Front-End Web Developer | Internship",
     company_name: "DHTS",
     icon: user,
     iconBg: "#383E56",
     date: "September 2019 - November 2019",
     points: [
-      "Installing LAN networks and maintenance.",
-      "Installing security and alarm systems.",
-      "Developing modules for web ERP solutions..",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained static and dynamic websites.",
+      "Collaborated with cross-functional teams to gather and analyze requirements.",
+      "Created visually appealing user interfaces using HTML, CSS, and JavaScript.",
     ],
   },
   {
@@ -139,36 +138,34 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "February 2020 - April 2021",
     points: [
-      "Maintaining network stability real time.",
-      "Configuring Cisco VPN to ensure private connection.",
-      "Connecting the security alarm and surveillance to the network.",
-      "Database administration.",
+      "Managed and maintained company's network infrastructure.",
+      "Implemented security protocols and firewall configurations to safeguard the network.",
+      "Troubleshot network issues, identified bottlenecks, and optimized network performance.",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full-Stack Web Developer",
     company_name: "Docthus",
     icon: user,
     iconBg: "#383E56",
     date: "May 2022 - September 2022",
     points: [
-      "Developing and maintaining web applications using React.js and Laravel.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and implemented a virtual events website, facilitating online participation.",
+      "Created an oxygen management platform for hospitals, optimizing oxygen supply and distribution processes.",
+      "Collaborated with teams to gather requirements and ensure project success",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full-Stack Web Developer",
     company_name: "Bookinghero",
     icon: user,
     iconBg: "#E6DEDD",
     date: "September 2022 - Present",
     points: [
-      "Doing full stack development using Node.js & React.js.",
-      "Leading a remote team of Web & Mobile developers & UI/UX designers.",
-      "Creating new Platform (Paas).",
-      "Doing code reviews.",
+      "Leading a dynamic team in developing a SaaS platform for appointment booking",
+      "Spearheading end-to-end development, from concept to deployment, ensuring project milestones and deadlines are met.",
+      "Developing scalable back-end architecture, APIs, and database structures to support the platform's functionality.",
+      "Collaborating with designers, stakeholders, and cross-functional teams to define project requirements and objectives.",
     ],
   },
 ];
