@@ -37,6 +37,7 @@ import gmail from "./gmail.png";
 import linkedin from "./linkedin.png";
 import assafwa from "./assafwa.png";
 import camper from "./camper.png";
+import realEstate from "./react-estate.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   slack,
   assafwa,
   camper,
+  realEstate,
 };

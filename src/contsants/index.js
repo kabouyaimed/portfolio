@@ -31,6 +31,7 @@ import {
   linkedin,
   assafwa,
   camper,
+  realEstate,
 } from "../assets";
 
 export const navLinks = [
@@ -120,20 +121,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Web Developer | Internship",
+    title: "Junior Developer",
     company_name: "DHTS",
     icon: user,
     iconBg: "#383E56",
-    date: "September 2019 - November 2019",
+    date: "September 2019 - January 2020",
     points: [
-      "Developed and maintained static and dynamic websites.",
-      "Collaborated with cross-functional teams to gather and analyze requirements.",
-      "Created visually appealing user interfaces using HTML, CSS, and JavaScript.",
+      "Developed and maintained static and dynamic websites, ensuring seamless user experience and functionality across various browsers and devices.",
+      "Collaborated with cross-functional teams to gather and analyze requirements, ensuring alignment with project objectives and client expectations.",
+      "Utilized version control systems such as Git to manage code repositories and track changes, facilitating collaboration and code management within the team.",
+      "Actively engaged in learning and professional development activities, staying updated on latest web development trends and technologies.",
+      "Demonstrated strong problem-solving skills and attention to detail in identifying and resolving technical challenges during website development and maintenance.",
     ],
   },
   {
-    title: "Network And Database Administrator",
-    company_name: "Local Military Pharmacy",
+    title: "IT Technician",
+    company_name: "Local Pharmaceuticals",
     icon: user,
     iconBg: "#E6DEDD",
     date: "February 2020 - April 2021",
@@ -141,31 +144,34 @@ const experiences = [
       "Managed and maintained company's network infrastructure.",
       "Implemented security protocols and firewall configurations to safeguard the network.",
       "Troubleshot network issues, identified bottlenecks, and optimized network performance.",
+      "Optimized and managed database access.",
+      "Performed root cause analysis for more than 10 issues to identify errors.",
     ],
   },
   {
-    title: "Full-Stack Web Developer",
+    title: "Full-Stack Developer",
     company_name: "Docthus",
     icon: user,
     iconBg: "#383E56",
-    date: "May 2022 - September 2022",
+    date: "January 2022 - September 2022",
     points: [
-      "Designed and implemented a virtual events website, facilitating online participation.",
-      "Created an oxygen management platform for hospitals, optimizing oxygen supply and distribution processes.",
-      "Collaborated with teams to gather requirements and ensure project success",
+      "Spearheaded the development of an online virtual events platform, catering to a diverse audience and achieving a 50% increase in event attendance.",
+      "Collaborated with cross-functional teams including developers, designers, marketers, and sales representatives, ensuring alignment of objectives.",
+      "Implemented and optimized APIs to enhance platform functionality, resulting in a 40% increase in data retrieval speed and a 25% decrease in latency.",
+      "Developed scalable and flexible architecture to accommodate future growth and feature expansion, ensuring long-term sustainability of the platform.",
     ],
   },
   {
-    title: "Full-Stack Web Developer",
-    company_name: "Bookinghero",
+    title: "Senior Full Stack Developer",
+    company_name: "Bookinghero ApS",
     icon: user,
     iconBg: "#E6DEDD",
     date: "September 2022 - Present",
     points: [
-      "Leading a dynamic team in developing a SaaS platform for appointment booking",
-      "Spearheading end-to-end development, from concept to deployment, ensuring project milestones and deadlines are met.",
-      "Developing scalable back-end architecture, APIs, and database structures to support the platform's functionality.",
-      "Collaborating with designers, stakeholders, and cross-functional teams to define project requirements and objectives.",
+      "Developed a SaaS platform from inception to deployment, achieving a 30% increase in user engagement within the first six months.",
+      "Led a diverse team of developers and designers, fostering collaboration and achieving a 20% improvement in project delivery time.",
+      "Implemented highly secure API architectures, reducing security vulnerabilities by 90% and ensuring compliance with industry standards.",
+      "Conducted code reviews and implemented best practices, leading to a 30% decrease in bugs.",
     ],
   },
 ];
@@ -241,6 +247,28 @@ const projects = [
     image: bookinghero,
     source_code_link: "https://github.com/kabouyaimed",
     link: "https://bookinghero.io/",
+  },
+  {
+    name: "Real Estate Homes",
+    description:
+      "A SEO friendly fully responsive landing page for real estate businesses with a performance score of 99% on all screen sizes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: realEstate,
+    source_code_link: "https://github.com/kabouyaimed",
+    link: "https://real-estate-eosin-three.vercel.app/",
   },
   {
     name: "Campers Guide",
